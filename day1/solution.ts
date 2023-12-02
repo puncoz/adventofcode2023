@@ -10,7 +10,7 @@ const _calculateCalibrationValue = (inp: string) => {
 const getInput = async (isTest: boolean, testCase: number): Promise<string[]> => {
   const inputString: string = await readInputFile(__dirname, isTest, testCase)
 
-  return inputString.split(/[\s]/).filter((num: string) => !!num).map(String)
+  return inputString.split(/[\r\n]/).filter((num: string) => !!num).map(String)
 }
 
 const partOne = async (input: string[]) => {
