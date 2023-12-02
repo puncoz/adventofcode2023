@@ -1,0 +1,19 @@
+{
+  "name": "@puncoz/adventofcode2023",
+  "version": "1.0.0",
+  "description": "AdventOfCode 2023 solutions",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "solve": "ts-node index.ts"
+  },
+  "author": {
+    "name": "Puncoz Nepal",
+    "email": "info@puncoz.com"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
